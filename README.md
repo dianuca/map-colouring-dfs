@@ -71,3 +71,23 @@ FxImageUtils.java        BufferedImage to JavaFX conversion
 ## Author
 
 **Diana Ciodolan**
+
+## Screenshots
+
+### Original Map
+
+The application accepts a black-and-white map in which each enclosed area represents a region that must be detected and coloured.
+
+![Original map](screenshots/original-map.png)
+
+### Region Detection
+
+Each connected region is identified and assigned a unique identifier. The debug view also displays the number of pixels contained in every detected region.
+
+![Detected map regions](screenshots/detected-regions.png)
+
+### DFS-Based Map Colouring
+
+The application builds the region-adjacency structure and uses depth-first search to assign colours while preventing neighbouring regions from receiving the same colour.
+
+![DFS map colouring result](screenshots/dfs-colouring-result.png)
